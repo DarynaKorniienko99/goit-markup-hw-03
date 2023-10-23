@@ -46,7 +46,7 @@ section {
 }
 .logotype { margin-right: 76px; }
 
-.container {
+.page-header-container {
     display: flex;
     justify-content: space-between; 
     padding: 24px 0;
