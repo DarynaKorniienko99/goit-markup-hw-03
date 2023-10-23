@@ -40,10 +40,9 @@ section {
 
 .container {
     width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin: 0 auto;
+    padding: 0 15px;
+   
 }
 .logotype { margin-right: 76px; }
 
@@ -247,13 +246,28 @@ color:#2E2F42;
         color: #434455;
 }
 /* ============== OUR PORTFOLIO ============== */
+.portfolio-caption {
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    padding: 32px 16px;
+}
+.works-menu {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.works-menu-item {
+    width: calc((100% - 2 * 24px) / 3);
+}
+.works-item-position {
+    margin-bottom: 8px;
+}
+.works-head-two {
+    margin-bottom: 72px;
+}
+
 .works-head {
-display: flex;
-justify-content: center;
-margin-top: 120px;
-margin-right: auto;
-margin-bottom: 72px;
-margin-left: auto;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -262,14 +276,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
 }
-.works-menu {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-}
-.works-menu-item {
-    width: calc((100% - 2 * 24px) / 3);
-}
+
 .works-item {
 font-size: 20px;
 font-weight: 500;
@@ -284,11 +291,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.portfolio-caption {
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    padding: 32px 16px;
-}
+
 /* ============== FOOTER ============== */
 .page-footer {
     background-color: #2E2F42;
@@ -316,7 +319,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 max-width: 264px;
 }
-.logo-footer {
+.logotype-web {
     display: inline-block;
     margin-bottom: 16px;
 }
